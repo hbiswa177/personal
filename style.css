@@ -1,0 +1,121 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Birdseye', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-top: 60px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 22px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    align-items: center; /* Center items vertically */
+}
+
+.profile-image {
+    flex: 1; /* Take 1 part of the available space */
+    margin-right: 350px; /* Adjust the margin as needed */
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+.profile-info {
+    flex: 2; /* Take 2 parts of the available space */
+    margin-left: -300px;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px; 
+    font-family: 'Birdseye', sans-serif;
+    padding-right: 50px;
+}
+.small-image {
+    width: 500px; /* Adjust the width as needed */
+}
+
+.senior_design_image{
+    flex: 1; /* Take 1 part of the available space */
+    margin-right: 350px; /* Adjust the margin as needed */
+    margin-left: 20px;
+    padding-left: 40px;
+    width: 700px;
+}
+.project1paragraph {
+    flex: 2; /* Take 2 parts of the available space */
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px; 
+    font-family: 'Birdseye', sans-serif;
+    padding-right: 50px;
+    padding-left: 40px;
+}
+.project2 {
+
+    flex: 1; /* Take 1 part of the available space */
+    margin-right: 350px; /* Adjust the margin as needed */
+    margin-left: 20px;
+    padding-left: 40px;
+    width: 700px;
+}
+
+.project2paragraph {
+    flex: 2; /* Take 2 parts of the available space */
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px; 
+    font-family: 'Birdseye', sans-serif;
+    padding-right: 50px;
+    padding-left: 40px;
+
+}
+
+.contactblock {
+    flex: 2; /* Take 2 parts of the available space */
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px; 
+    font-family: 'Birdseye', sans-serif;
+    padding-right: 50px;
+    padding-left: 40px;
+    margin-top: -20px;
+}
